@@ -1,4 +1,4 @@
-# finance-mcp
+# FinHub
 
 > Copyright (c) 2026 bachbnt. All rights reserved.
 
@@ -46,8 +46,8 @@ Add this server to your Claude Code MCP config:
 {
   "mcpServers": {
     "finance": {
-      "command": "/Users/bachbui/Desktop/source/finance-mcp/.venv/bin/python",
-      "args": ["/Users/bachbui/Desktop/source/finance-mcp/server.py"]
+      "command": "/Users/bachbui/Desktop/source/FinHub/.venv/bin/python",
+      "args": ["/Users/bachbui/Desktop/source/FinHub/server.py"]
     }
   }
 }

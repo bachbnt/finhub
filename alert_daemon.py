@@ -1,6 +1,6 @@
 # Copyright (c) 2026 bachbnt. All rights reserved.
 """
-alert_daemon.py — Price alert background daemon for finance-mcp.
+alert_daemon.py — Price alert background daemon for FinHub.
 
 Runs alongside the MCP server, polling the shared alerts.json store at a
 configurable interval. When a price condition is met the daemon sends a

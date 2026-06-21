@@ -3,9 +3,9 @@
 # MCP server configuration (add to ~/.claude/settings.json):
 # {
 #   "mcpServers": {
-#     "finance": {
-#       "command": "/Users/bachbui/Desktop/source/finance-mcp/.venv/bin/python",
-#       "args": ["/Users/bachbui/Desktop/source/finance-mcp/server.py"]
+#     "finhub": {
+#       "command": "/Users/bachbui/Desktop/source/finhub/.venv/bin/python",
+#       "args": ["/Users/bachbui/Desktop/source/finhub/server.py"]
 #     }
 #   }
 # }
@@ -21,7 +21,7 @@ from datetime import datetime, timedelta, timezone
 
 from mcp.server.fastmcp import FastMCP
 
-mcp = FastMCP("finance-mcp")
+mcp = FastMCP("finhub")
 
 # Path to the shared alerts store used by both server and alert_daemon
 ALERTS_FILE = os.path.join(os.path.dirname(__file__), 'alerts.json')
